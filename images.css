@@ -1,3 +1,7 @@
+.home {
+    margin-top: 50px;
+}
+
 .home img {
     width: 500px;
     border-radius: 30px;
@@ -17,16 +21,44 @@
 }
 
 @media screen and (max-width: 756px) {
-    .navbar-nav {
-        border-right: 1px groove grey;
-        border-bottom: 3px solid gray;
+    .navbar {
+        background: whitesmoke;
+        border-left: 2px solid #000;
+        border-top: 2px solid gray;
+        border-bottom: 2px solid gray;
+        border-right: 1px solid grey;
     }
 
 }
 
-.contuct img {
+.conduct img {
     width: 500px;
-    height: 250px;
+    height: 450px;
+}
+
+#about ul li {
+    list-style: none;
+    padding: 10px 12px;
+    margin-top: 2px;
+    margin-left: 5px;
+
+    float: left;
+    border: 1px solid goldenrod;
+    background: greenyellow;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    text-align: right;
+}
+
+
+#about ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#about ul li a:hover {
+    color: red;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 .card img {
@@ -37,4 +69,15 @@
 
 marquee {
     background: rgba(241, 237, 237, 0.705);
+    animation: infinite 3000ms mykit;
+}
+
+@keyframes mykit {
+    from {
+        background: rgba(241, 237, 237, 0.705);
+    }
+
+    to {
+        background: rgba(210, 198, 198, 0.705);
+    }
 }
