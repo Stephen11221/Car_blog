@@ -81,3 +81,17 @@ marquee {
         background: rgba(210, 198, 198, 0.705);
     }
 }
+
+form {
+    padding: 10px 20px;
+    border: 1px solid gray;
+}
+
+form input {
+    border-radius: 80px;
+}
+
+form button {
+    border: none;
+    border-radius: 20px;
+}
