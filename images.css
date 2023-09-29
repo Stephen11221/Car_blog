@@ -1,0 +1,40 @@
+.home img {
+    width: 500px;
+    border-radius: 30px;
+    height: 440px;
+    border: 3px solid red;
+    animation: infinite 3000ms mborder;
+}
+
+@keyframes mborder {
+    from {
+        border: 3px solid red;
+    }
+
+    to {
+        border: 4px groove rebeccapurple;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .navbar-nav {
+        border-right: 1px groove grey;
+        border-bottom: 3px solid gray;
+    }
+
+}
+
+.contuct img {
+    width: 500px;
+    height: 250px;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+}
+
+marquee {
+    background: rgba(241, 237, 237, 0.705);
+}
