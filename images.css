@@ -58,8 +58,16 @@ footer {
     border-top: 2px groove black;
 }
 
+.sub-btn {
+
+    background: goldenrod;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
 
 .btn-sub {
+    margin-bottom: 10px;
     width: 200px;
     border: none;
     border-radius: 10px;
