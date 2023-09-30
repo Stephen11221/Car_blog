@@ -37,6 +37,37 @@
         width: 500px;
         margin-top: 45px;
     }
+
+    .btn-sub {
+        width: 200px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .sub-btn {
+        background: greenyellow;
+        width: 140px;
+        padding: 8px 13px;
+    }
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 2px groove black;
+}
+
+.sub-btn {
+    border-radius: 1px;
+    padding: 10px 8px;
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 210px;
+}
+
+.btn-sub {
+    width: 200px;
+    border: none;
+    border-radius: 10px;
 }
 
 .conduct img {
