@@ -51,6 +51,11 @@
         position: absolute;
         margin-top: -8px;
     }
+
+    .footer form {
+        border-bottom: 1px groove;
+        margin-top: 10px;
+    }
 }
 
 footer {
