@@ -45,9 +45,11 @@
     }
 
     .sub-btn {
-        background: greenyellow;
-        width: 140px;
-        padding: 8px 13px;
+        background: yellowgreen;
+        border-radius: 4px;
+        padding: 6px 8px;
+        position: absolute;
+        margin-top: -8px;
     }
 }
 
@@ -56,13 +58,6 @@ footer {
     border-top: 2px groove black;
 }
 
-.sub-btn {
-    border-radius: 1px;
-    padding: 10px 8px;
-    position: absolute;
-    margin-top: -28px;
-    margin-left: 50px;
-}
 
 .btn-sub {
     width: 200px;
