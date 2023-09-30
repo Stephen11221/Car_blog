@@ -59,6 +59,7 @@
 }
 
 footer {
+    border-top: none;
     margin-top: 20px;
     border-top: 2px groove black;
 }
